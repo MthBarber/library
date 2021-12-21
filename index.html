@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Library</title>
+</head>
+
+<body>
+    <button id="addBook">Add A Book To Your Library</button>
+    <div class="form-popup" id="my-form" value="none">
+        <form action="" class="form-container">
+            <ul>
+                <li>
+                    <label for="book-name">Book Title</label>
+                    <input type="text" required id="title">
+                </li>
+                <li>
+                    <label for="author">Author</label>
+                    <input type="text" required id="author">
+                </li>
+                <li>
+                    <label for="number-of-pages">Number Of Pages</label>
+                    <input type="text" required id="pages">
+                </li>
+                <li>
+                    <label for="read">Have You Read This Book?</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="read">Read</option>
+                        <option value="notRead">Not Read</option>
+                    </select>
+                </li>
+                <li>
+                    <button type="submit">Add Book To Library</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
