@@ -1,14 +1,6 @@
 //My Array to store Books
 
-let myLibrary = [{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},
-{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},];
+let myLibrary = [{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},];
 
 
 //Book constructor
