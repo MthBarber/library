@@ -3,13 +3,14 @@
 let myLibrary = [{title: "Periodization Training for sports", author: "Tudor Bompa", pages: 525 + " pages", read: "Read"},];
 
 
-//Book constructor
-function Book(title,author,pages,read){    
+//Change this book contracutor to a class
+class Book {
+    constructor(title,author,pages,read){    
     this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = read;
-    
+    }
     //this.info = function(){
         //return `${this.title} by ${this.author}, ${this.pages}, ${this.read}`
    // }
