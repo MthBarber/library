@@ -4,8 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-between;    
-    background-image: url(https://images.unsplash.com/photo-1529473814998-077b4fec6770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    
     justify-content: center;
 }
 .header {
@@ -22,12 +20,19 @@ body {
     
 }
 h1 {   
-    color:rgb(255, 255, 255);
+    color: rgb(7, 160, 195);
     text-align: center;
-    margin: 0;
+    margin: 1rem auto 2rem auto;
     padding: 0;
-    
+    font-family: 'Gideon Roman', cursive;
 
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+    font-family: 'Gideon Roman', cursive;
+    color: rgb(7, 79, 87);
 }
 
 .form-container {
@@ -50,7 +55,7 @@ form {
 .form-popup {
     
     display: none;
-    margin-top: 8rem;
+    margin-top: 12rem;
     z-index: 100;
     flex-direction: column;
     justify-content: center;
@@ -65,6 +70,7 @@ form {
 
 button {
     width: 200px;
+    
     align-self: center;
     z-index: 101;
    
@@ -87,14 +93,14 @@ li {
     position: relative;
     margin: auto;
     
-    border: 6px solid rgb(90, 50, 50);
-    
+    border: 6px solid rgb(90, 30, 30);
+    background-color: rgb(90,70,70);
     min-height: fit-content;
     min-width: 75%;
     max-width: 75%;
     min-height: 30rem;
     flex-wrap: wrap;
-    margin-top: 5rem;
+    margin-top: 12rem;
 }
 
 .library-container div {
